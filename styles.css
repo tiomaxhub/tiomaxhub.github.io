@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    
+}
+
+
+header {
+    background-color: #7a6464;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: initial;
+    bottom: 0;
+    width: 100%;  
+    margin-top: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+
+main {
+    padding: 48px;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: #7a6464;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form textarea {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Layouts de Seções */
+section {
+    margin: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    font-size: 22px;
+    } 
+  .item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #profile {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+
+
+  #finan, #infra, #suporte {
+    width: 500px;
+    border-radius: 10%;
+  }
+
+  #tit projeto { 
+    font-size: 30px;
+  }
+
+  #butemail { 
+    font-size: 18px;
+  }
